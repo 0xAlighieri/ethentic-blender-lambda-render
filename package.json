@@ -1,0 +1,18 @@
+{
+  "name": "lambda-blender",
+  "description": "Docker container to run blender renders in cloud functions",
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.mjs"
+  },
+  "dependencies": {
+    "aws-lambda-ric": "^1.0.0",
+    "aws-sdk": "^2.921.0",
+    "axios": "^0.27.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ethentic/blender.git"
+  }
+}
