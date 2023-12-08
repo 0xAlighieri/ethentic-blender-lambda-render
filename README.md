@@ -1,6 +1,6 @@
 # Blender
 
-Docker container to run blender renders in cloud functions
+Docker container to run blender renders in AWS Lambda
 
 ## Emulating the lambda
 
